@@ -79,7 +79,7 @@ def siapa():
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97Membuat tidak semudah menggunakan") 
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97Mmembuat tidak semudah menggunakan") 
                 time.sleep(1)
 		loginSC()
 		
@@ -90,7 +90,7 @@ def loginSC():
         os.system('xdg-open https://www.facebook.com/profile.php?id=100051274201356 ')
 	username = raw_input("\033[1;91m[*] \033[1;91mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;97m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="1F4N" and password =="Ganteng":
+	if username =="Fadil-ID" and password =="Tools":
 		print"\033[1;96m[✓] \033[1;92mLogin success.."
 		time.sleep(1)
 		login()
